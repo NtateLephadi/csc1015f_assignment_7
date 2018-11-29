@@ -10,11 +10,11 @@ def run_test (test):
    if test == 0:
       grid = []    
       util.create_grid (grid)
-      print (len (grid))
-      print (len (grid[0]))
-      print (len (grid[1]))
-      print (len (grid[2]))
-      print (len (grid[3]))
+      print (len(grid))
+      print (len(grid[0]))
+      print (len(grid[1]))
+      print (len(grid[2]))
+      print (len(grid[3]))
       print (grid[0][0])
       print (grid[1][2])
       print (grid[2][1])
@@ -109,4 +109,4 @@ def run_all_tests ():
       print ("Test",test)
       run_test (test)
       
-run_one_test ()
+run_all_tests ()
